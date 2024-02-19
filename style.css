@@ -1,0 +1,185 @@
+@charset "utf_8";
+
+
+ 
+ 
+ body {
+    background-color: #000000;
+    margin: 67px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+    
+     
+} 
+
+h1,
+h2 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+iframe {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text {
+    background: #ffffffd5;
+    padding: 10px;
+    height: 100%;
+    margin: 2%;
+}
+
+
+footer{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 10;
+    width: 100px;
+    
+}
+.menina{
+    
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 100vh; 
+    height: auto;
+     animation: moveUpDown 2s ease-in-out infinite;
+     
+
+}
+
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    height: auto;
+    
+}
+.image2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    height: auto;
+}
+.image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    height: auto;
+}
+.image4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    height: auto;
+    
+}
+
+
+
+
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-50px);
+
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 70%;
+        -ms-text-align-last: center; 
+    }
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    .menina{
+    width: 100vh; 
+    height: auto;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    
+
+    
+        
+     }
+
+     .menina img{
+        width: 300px;
+        position: absolute;
+        left: 0;
+     }
+     
+        
+        
+
+
+
+   .text{
+       padding: 10px;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .image1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 99%; 
+        height: auto;
+        
+    }
+    .image2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 99%; 
+        height: auto;
+    }
+    .image3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:99%; 
+        height: auto;
+    }
+    .image4{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 99%; 
+        height: auto;
+        
+    }
+    
+}  
